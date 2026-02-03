@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  /* Background photo */
+  background: url("IMG_2240.jpeg") no-repeat center center/cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255,255,255,0.88);
+  padding: 40px;
+  border-radius: 20px;
+  width: 85%;
+  max-width: 420px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  position: relative;
+  height: 120px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#yes {
+  background-color: #ff4d6d;
+  color: white;
+  left: 30%;
+}
+
+#no {
+  background-color: #333;
+  color: white;
+  left: 60%;
+}
+
+#msg {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff4d6d;
+}
